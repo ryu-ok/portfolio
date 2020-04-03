@@ -1,3 +1,239 @@
-h1{
-  color: red;
+.header{
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index:9999;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.header-first{
+  background-color: rgb(211, 214, 3);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: white;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.firstname{
+  color: white;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.lastname{
+  color: white;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.header-second{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(104, 102, 102);
+}
+
+.toplist{
+  display: flex;
+  color: white;
+  line-height: 70px;
+  font-size: 20px;
+
+}
+
+.project{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.blog{
+  margin-right: 30px;
+}
+
+.main{
+
+}
+
+.aboutpage{
+  width: 100%;
+  background-color: rgb(248, 250, 227);
+  margin-top: 140px;
+}
+
+@media screen and (min-width:1000px) {
+  .center-box{
+    display: flex;
+  }
+}
+
+.center-box{
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+
+.left{
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.iconarea{
+}
+
+.icon{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.name{
+  text-align: center;
+  margin-top: 25px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.twitter{
+  text-align: center;
+}
+
+.fa-twitter{
+  font-size: 2rem;
+  color: rgb(0, 132, 255);
+}
+
+.twitter-id{
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+}
+
+.blog-top{
+ margin-top: 10px;
+ margin-left: 10px;
+ font-size: 20px;
+}
+
+.blog-bottom{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.bloglink{
+  text-decoration: none;
+  color: blue;
+  
+}
+
+
+.projectpage{
+  width: 100%;
+  background-color: rgb(254, 255, 254);
+  margin-top: 140px;
+}
+
+.title{
+  font-size: 40px;
+}
+
+.information{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.project-section{
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.projectbox{
+  margin: 20px auto;
+  width: 100%;
+  background-color: rgb(248, 250, 227);
+}
+
+.projectlist{
+  padding: 50px;
+}
+
+@media screen and (min-width:1000px) {
+  .projectlist{
+    display: flex;
+    padding: 100px;
+  }
+  .descriptionbox{
+    width: 70%;
+  }
+
+}
+
+.applinkbox{
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.appbox{
+  text-decoration: none;
+  color: purple;
+  padding: 100px 0;
+}
+
+.descriptionbox{
+  width: 90%;
+}
+
+.thema{
+  font-size: 30px;
+}
+
+.content{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.contactpage{
+  background-color: rgb(248, 250, 227);
+}
+
+.contactsection{
+  width: 70%;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.list{
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+}
+
+span{
+  margin-left: 30px;
+}
+
+i{
+  font-size: 2rem;
 }
