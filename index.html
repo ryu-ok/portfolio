@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="style.js"></script>
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <title>Example Portfolio</title>
 </head>
@@ -17,15 +19,14 @@
   </div>
     <div class="header-second">
       <ul class="toplist">
-        <li>About</li>
-        <li class="project">Project</li>
-        <li>Contact</li>
-        
+        <li class="about"><a class="list-up" href="#1">About</a></li>
+        <li class="project"><a class="list-up" href="#2">Project</a></li>
+        <li class="contact"><a class="list-up" href="#3">Contact</a></li>
       </ul>
     </div>
   </div>
   <div class="main">
-    <div class="aboutpage">
+    <div class="aboutpage" id="1">
       <div class="center-box">
         <div class="left">
           <div class="icon-are">
@@ -33,6 +34,7 @@
           </div>
           <div class="name"><h1>Ryu Okuhara</h1></div>
           <div class="twitter"><i class="fab fa-twitter"></i><a class = "twitter-id" href="https://twitter.com/ryu_enjineer">@ryu_enjineer</a></div>
+          <div class="github"><i class="fab fa-github"></i><a class = "github-link" href="https://github.com/ryu-ok">https://github.com/ryu-ok</a></div>
           <div class="blog-top">・ブログ </div>
           <div class="blog-bottom"><a class="bloglink" href="https://ryu-enjineer.hatenablog.com/">ryu-enjineer.hatenablog.com</a></div></div>
         <div class="right">
@@ -41,14 +43,14 @@
         </div>
       </div>
       <div class="projectpage">
-        <div class="project-section">
+        <div class="project-section" id="2">
           <div class="title">Project</div>
             <div class="projectbox">
               <div class="projectlist">
                 <div class="applinkbox"><a class = "appbox" href="https://damp-eyrie-73076.herokuapp.com/">matching app</a></div>
                 <div class="descriptionbox">
                   <div class="thema">description</div>
-                  <div class="content">簡単に説明すると、マッチングアプリです。ユーザーに対していいねを送ることができます。お互いにいいねを送り合うとマッチングが成立し、メッセージを送ることができます。マッチングが成立したときだけ、演出が起きるようにしました。使用言語はRuby and Railsです。
+                  <div class="content">簡単に説明すると、マッチングアプリです。ユーザーに対していいねを送ることができます。お互いにいいねを送り合うとマッチングが成立し、メッセージを送ることができます。マッチングが成立したときだけ、演出が起きるようにしました。使用言語はRuby and Railsです。<br><a href="https://github.com/ryu-ok/matching-app">https://github.com/ryu-ok/matching-app</a><br><a href="https://damp-eyrie-73076.herokuapp.com/">https://damp-eyrie-73076.herokuapp.com/</a>
                   </div>
                 </div>
               </div>
@@ -58,7 +60,7 @@
                 <div class="applinkbox"><a class = "appbox" href="https://damp-eyrie-73076.herokuapp.com/">30000days</a></div>
                 <div class="descriptionbox">
                   <div class="thema">description</div>
-                  <div class="content">ログインしているユーザーが、今日が生まれてから何日目なのかを確認できるアプリです。人間の寿命を元に計算すると、人生は約30000日となります。1日1日を大切に生きてほしい。その思いからこのアプリを作りました。使用言語はRuby and Railsです。
+                  <div class="content">ログインしているユーザーが、今日が生まれてから何日目なのかを確認できるアプリです。人間の寿命を元に計算すると、人生は約30000日となります。1日1日を大切に生きられるように。その思いからこのアプリを作りました。使用言語はRuby and Railsです。<br><a href="https://github.com/ryu-ok/Thirty_thousand_days">https://github.com/ryu-ok/Thirty_thousand_days</a><br><a href="https://blooming-basin-27476.herokuapp.com/">https://blooming-basin-27476.herokuapp.com/</a>
                   </div>
                 </div>
               </div>
@@ -66,7 +68,7 @@
           </div>
         </div>
     </div>
-    <div class="contactpage">
+    <div class="contactpage" id="3">
       <div class="contactsection">
         <div class="title">contact</div>
           <div>
